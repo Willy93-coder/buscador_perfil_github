@@ -144,7 +144,6 @@ p {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    letter-spacing: .125rem;
     line-height: 1.12rem; 
 }
 
@@ -164,12 +163,7 @@ i:hover {
 }
 
 h2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
     text-align: start;
-    letter-spacing: .125rem;
     margin-bottom: 0;
 }
 
@@ -177,10 +171,16 @@ h2 {
     width: 25.25rem;
 }
 
-.container-data {
+.data-container {
+    display: grid;
+    align-items: center;
     color: var(--black-violet);
 }
 
+.description {
+    display: grid;
+    row-gap: 1rem;
+}
 .error-message {
     text-align: center;
     color: var(--red-violet);
