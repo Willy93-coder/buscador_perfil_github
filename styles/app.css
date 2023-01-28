@@ -6,6 +6,7 @@
     --violet: #4b0081;
     --light-violet: #a78bfa;
     --violet-gradient: #c205ba 0, #9c06ac 16.67%, #740499 33.33%, #4b0081 50%, #1f0068 66.67%, #000052 83.33%, #00003e 100%;
+    --red-violet: #81003a;
     --gray: #9ca3af;
     --grey: #71717a;
     --press-start-2p: 'Press Start 2P', cursive;
@@ -165,4 +166,9 @@ h2 {
 
 .container-data {
     color: var(--black-violet);
+}
+
+.error-message {
+    text-align: center;
+    color: var(--red-violet);
 }
